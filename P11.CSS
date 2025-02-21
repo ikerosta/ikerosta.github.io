@@ -1,0 +1,157 @@
+ body   {
+  margin-left: 20%;
+  margin-right: 20%;
+ }
+
+#barranav {
+ color: #fafafa;
+ height: 80px;
+ background-color: #3a678d;
+ font-size: 22.5px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+    ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 14px;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fdfdfd;
+    line-height: 1.6;
+    font-weight: 100;
+    }
+
+    li{
+    float: left;
+    margin-left: 10px;
+    letter-spacing: -1px;
+    }
+
+#nombre {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#imgIES1 {
+    display: block;
+    width: 100%;
+    border-top: 1px rgb(235, 103, 19);
+    border-bottom: 1px rgb(235, 103, 19);
+    height: auto;
+
+}
+
+#cuerpo {
+      display: grid;
+      grid-template-columns: 200px 550px 200px;
+      gap: 10px;
+      margin-top: 130px;
+      height: 900px;
+
+}
+
+        .cajaIzda1 {
+              grid-row: 1;
+              grid-column: 1;
+              width: 200px;
+              height: 240px;
+        }
+
+        .imgIzda1 {
+              margin-top: 10px;
+              width: 200px;
+        }
+
+        .cajaIzda2 {
+              grid-row: 2;
+              grid-column: 1;
+              width: 220px;
+              height: 220px;
+              font-family: Arial, Helvetica, sans-serif;
+              font-weight: bolder;
+              font-size: 16;
+
+        }
+
+        .imgIzda2 {
+              margin-top: 10px;
+              width: 200px;
+        }
+
+        .cajaIzda3 {
+              grid-row: 3;
+              grid-column: 1;
+              width: 220px;
+              height: 100px;
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 16;
+              font-weight: bolder;
+        }
+
+        .imgIzda3 {
+            width: 200px;
+            margin-top: 10px;
+        }
+
+        .cajaIzda4 {
+            grid-column: 1;
+            grid-row: 4;
+            width: 220px;
+            height: 200px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16;
+            font-weight: bolder;
+        }
+
+        .imgIzda4 {
+            width: 200px;
+            margin-top: 10px;
+        }
+
+        .cajaCentro1 {
+            grid-column: 2;
+            grid-row: 1/4;
+            width: 500px;
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+
+        .imgCentro1 {
+            width: 520px;
+        }
+
+        .cajaDcha1 {
+            grid-column: 3;
+            grid-row: 1;
+            width: 200px;
+            height: 240px;
+        }
+
+        .imgDcha1 {
+             width: 170px;
+        }
+
+hr {
+   border: 0;
+   height: 1px;
+   background-color: orange;
+}
+
+#pie {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 11px;
+   color: black;
+   line-height: 1.6;
+   font-weight: 100;
+}
+
+        .pieIzda {
+            color: darkblue;
+        }
+
+        .pieDcha {
+              margin-left: 62%;
+        }
